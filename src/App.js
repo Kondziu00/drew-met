@@ -1,12 +1,15 @@
 import './App.css';
 import Nav from './components/Navigation/Nav';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-function App() {
+const App = () => {
 	return (
-		<div className='App'>
+		<Router>
 			<Nav></Nav>
+		<main>
 			<p>Hello Drew-Met!</p>
-		</div>
+		</main>
+		</Router>
 	);
 }
 
