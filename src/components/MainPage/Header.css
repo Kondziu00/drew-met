@@ -1,0 +1,7 @@
+.hero-img{
+    position: relative;
+    height: 100vh;
+    h1{
+        text-transform: uppercase;
+    }
+}

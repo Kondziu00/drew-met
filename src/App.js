@@ -1,13 +1,14 @@
 import './App.css';
-import Nav from './components/Navigation/Nav';
 import { BrowserRouter as Router } from 'react-router-dom';
+import Nav from './components/Navigation/Nav';
+import Header from './components/MainPage/Header';
 
 const App = () => {
 	return (
 		<Router>
-			<Nav></Nav>
+			<Nav />
 		<main>
-			<p>Hello Drew-Met!</p>
+			<Header />
 		</main>
 		</Router>
 	);

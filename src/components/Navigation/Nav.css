@@ -5,12 +5,13 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	height: 12vh;
+	height: 10vh;
 	width: 100vw;
 	background-color: #7a7474;
 	color: white;
 	padding: 0 3rem;
 	box-shadow: 0 2px 5px rgba(0,0,0,1);
+	text-transform: uppercase;
 }
 
 .nav-list {
@@ -57,10 +58,10 @@
 }
 
 .logo{
-	height: 12vh;
+	height: 10vh;
 	margin-left: 12rem;
-	margin-top: 1rem;
-	transition: background-color 0.2s ease;
+	margin-top: 0.5rem;
+	transition: background-color 0.3s ease;
 }
 
 .logo:hover{

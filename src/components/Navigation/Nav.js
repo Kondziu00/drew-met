@@ -11,22 +11,22 @@ const Nav = () => {
       <ul className='nav-list'>
         <li>
           <Link to="/about">
-            <button className='nav-btn'>USŁUGI</button>
+            <button className='nav-btn'>usługi</button>
           </Link>
         </li>
         <li>
           <Link to="/transport">
-            <button className='nav-btn'>TRANSPORT</button>
+            <button className='nav-btn'>transport</button>
           </Link>
         </li>
         <li>
           <Link to="/gallery">
-            <button className='nav-btn'>GALERIA</button>
+            <button className='nav-btn'>galeria</button>
           </Link>
         </li>
         <li>
           <Link to="/contact">
-            <button className='nav-btn'>KONTAKT</button>
+            <button className='nav-btn'>kontakt</button>
           </Link>
         </li>
       </ul>
