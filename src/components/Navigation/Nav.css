@@ -1,4 +1,4 @@
-.nav{
+.nav {
 	position: sticky;
 	top: 0;
 	display: flex;
@@ -10,14 +10,14 @@
 	background-color: #7a7474;
 	color: white;
 	padding: 0 3rem;
-	box-shadow: 0 2px 5px rgba(0,0,0,1);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
 }
 
 .nav-list {
 	display: flex;
 	gap: 6rem;
 	list-style: none;
-	padding-right: 15rem ;
+	padding-right: 15rem;
 }
 
 .nav-btn {
@@ -31,32 +31,32 @@
 }
 
 .nav-btn::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -1rem;
-  width: 0;
-  height: 0.2rem;
-  background-color: #beb2b2;
-  transition: width 0.2s ease, background-color 0.2s ease;
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -1rem;
+	width: 0;
+	height: 0.2rem;
+	background-color: #beb2b2;
+	transition: width 0.2s ease, background-color 0.2s ease;
 }
 
 .nav-btn:hover {
-	color: #beb2b2;  
+	color: #beb2b2;
 }
 
 .nav-btn:hover::after {
-  width: 100%;
+	width: 100%;
 }
-.nav-btn:active{
+.nav-btn:active {
 	color: #494343;
 }
 
-.nav-btn:active::after{
+.nav-btn:active::after {
 	background-color: #494343;
 }
 
-.logo{
+.logo {
 	height: 12vh;
 	margin-left: 12rem;
 	margin-top: 1rem;
