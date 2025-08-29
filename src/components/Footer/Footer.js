@@ -40,7 +40,7 @@ const Footer = () => {
 			</div>
 
 			<div className='footer-bottom'>
-				<p>
+				<p className='footer-text'>
 					© {new Date().getFullYear()} DREW-MET. Wszystkie prawa zastrzeżone.
 				</p>
 			</div>
