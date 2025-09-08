@@ -5,7 +5,7 @@ const Header = () => {
     <header className="hero-img">
       <div className="hero-text">
         <h1>witamy w drew-met</h1>
-        <p>twoje źródło wysokiej jakości drewna i metalu</p>
+        <p>Twoje źródło wysokiej jakości drewna</p>
       </div>
       <div className="hero-shadow"></div>
     </header>

@@ -11,31 +11,18 @@ const Footer = () => {
 				<div className='footer-center'>
 					<ul>
 						<li>📍Adres</li>
-						<li>ul. Leśna 12</li>
-						<li>42-400 Poręba</li>
+						<li>ul. Wyzwolenia 133</li>
+						<li>42-480 Poręba</li>
 					</ul>
 					<ul>
 						<li>📞Telefon</li>
 						<li>123 123 123</li>
 					</ul>
-					{/* <ul>
-						<li>✉️Email</li>
-						<li>kontakt@drew-met.pl</li>
-					</ul> */}
 					<ul>
 						<li>⏰Godziny otwarcia</li>
-						<li>Pon-Pt 9-18</li>
+						<li>Pon-Pt 10-17</li>
 						<li>Sobota: w wybrane dni</li>
 					</ul>
-
-					{/* <p>📍 Adres: ul. Leśna 12, 00-000 Miasto</p>
-					<p>📞 Telefon: 123 456 789</p>
-					<p>✉️ Email: kontakt@drew-met.pl</p>
-					<p>
-						⏰ W tych godzinach jesteśmy otwarci
-						<p>Pon-Pt: 9-18</p>
-						<p>Sobota: w wybrane dni </p>
-					</p> */}
 				</div>
 			</div>
 

@@ -1,5 +1,5 @@
 .nav {
-	position: sticky;
+	position: fixed;
 	top: 0;
 	display: flex;
 	flex-direction: row;
@@ -12,6 +12,7 @@
 	/* padding: 0 3rem; */
 	box-shadow: 0 2px 5px rgba(0,0,0,1);
 	text-transform: uppercase;
+	z-index: 10000;
 }
 
 .nav-list {
