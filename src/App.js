@@ -4,6 +4,8 @@ import Nav from './components/Navigation/Nav';
 import Header from './components/MainPage/Header';
 import Footer from './components/Footer/Footer';
 import Services from './components/MainPage/Services';
+import Contact from './components/MainPage/Contact';
+import Gallery from './components/MainPage/Gallery';
 
 const App = () => {
 	return (
@@ -12,6 +14,8 @@ const App = () => {
 		<main>
 			<Header />
 			<Services />
+			<Gallery />
+			<Contact/>
 		</main>
 			<Footer />
 		</Router>

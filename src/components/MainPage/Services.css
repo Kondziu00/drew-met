@@ -1,17 +1,18 @@
 .services {
 	padding: 0 10rem;
 	height: auto;
+	/* background-color: rgba(223, 223, 223, 0.5); */
 }
 
 .section-title {
 	text-align: center;
 	text-transform: uppercase;
+	font-weight: 700;
 }
 
 .services h2 {
 	padding-top: 1rem;
-	font-size: 3rem;
-	font-weight: lighter;
+	font-size: 4rem;
 }
 
 .underline {

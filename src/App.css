@@ -30,3 +30,7 @@ a {
 main{
 	padding-top: 10vh;
 }
+
+ul {
+	list-style: none;
+}
