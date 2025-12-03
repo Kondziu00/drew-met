@@ -8,6 +8,7 @@
 
 html {
 	font-size: 62.5%;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -27,10 +28,17 @@ a {
 	text-decoration: none;
 }
 
-main{
+main {
 	padding-top: 10vh;
 }
 
 ul {
 	list-style: none;
+}
+
+#services,
+#about,
+#gallery,
+#contact {
+	scroll-margin-top: 10vh;
 }

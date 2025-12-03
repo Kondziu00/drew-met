@@ -10,7 +10,7 @@ import {
 
 const Services = () => {
 	return (
-		<section className='services'>
+		<section id='services' className='services'>
 			<h2 className='section-title'>nasze usługi</h2>
 			<div className='underline'></div>
 
