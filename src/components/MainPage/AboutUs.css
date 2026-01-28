@@ -31,41 +31,44 @@
 } */
 
 .AboutUs {
-    width: 100%;
-    padding: 8rem ;
-    padding-top: 4rem;
-    background-color: #f7f1e8; 
-    display: flex;
-    justify-content: center;
+	width: 100%;
+	padding: 8rem;
+	padding-top: 4rem;
+	background-color: #f7f1e8;
+	display: flex;
+	justify-content: center;
 }
 
 .upper-about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5rem;
 }
 
 .about-image img {
-    width: 100%;
-    /* scale: calc(0.8); */
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,1);
+	width: 100%;
+	/* scale: calc(0.8); */
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
 }
 
-
 .aboutustitle {
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 700;
+	text-align: center;
+	font-size: 4rem;
+	font-weight: 700;
 }
 
 .aboutustext {
-    text-align: center;
-    padding-top: 4rem;
-    font-size: 2.6rem;
-    color: #333;
+	text-align: center;
+	padding-top: 4rem;
+	font-size: 2.6rem;
+	color: #333;
+}
 
+.aboutustext p {
+	padding-left: 20rem;
+	padding-right: 20rem;
 }
 
 /* RESPONSYWNOŚĆ */
