@@ -54,9 +54,22 @@
 }
 
 .aboutustitle {
+	position: relative;
 	text-align: center;
 	font-size: 4rem;
 	font-weight: 700;
+}
+
+.aboutustitle:after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	bottom: -1rem;
+	width: 8rem;
+	height: 0.3rem;
+	background-color: #7a7474;
+	border-radius: 10px;
 }
 
 .aboutustext {
