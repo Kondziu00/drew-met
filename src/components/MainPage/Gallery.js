@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Gallery.css';
 
 import img1 from '../../images/about.jpg';
@@ -75,8 +76,9 @@ const Gallery = () => {
 					</div>
 				</div>
 			)}
-
-			<button>PRZENIES MNIE</button>
+			<Link to='/full-gallery' className='gallery__more-button'>
+				<p>Zobacz więcej!</p>
+			</Link>
 		</section>
 	);
 };

@@ -11,14 +11,14 @@
 }
 
 .services h2 {
-	padding-top: 1rem;
+	padding-top: 5rem;
 	font-size: 4rem;
 }
 
 .underline {
 	width: 14rem;
 	height: 0.25rem;
-	margin: 1rem auto;
+	margin: 1rem auto 3rem;
 	background-color: #7a7474;
 }
 
@@ -36,7 +36,7 @@
 	align-items: center;
 	width: 35rem;
 	height: 20rem;
-	margin: 5rem;
+	margin: 5rem auto 15rem;
 	background-color: #d4caca4b;
 	border-radius: 1rem;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
