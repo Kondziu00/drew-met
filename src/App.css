@@ -28,10 +28,6 @@ a {
 	text-decoration: none;
 }
 
-main {
-	padding-top: 10vh;
-}
-
 ul {
 	list-style: none;
 }
@@ -41,4 +37,8 @@ ul {
 #gallery,
 #contact {
 	scroll-margin-top: 10vh;
+}
+
+.main-content {
+	padding-top: 10vh;
 }

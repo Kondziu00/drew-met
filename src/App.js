@@ -43,10 +43,12 @@ const App = () => {
 		<Router>
 			<ScrollToHash />
 			<Nav />
-			<Routes>
-				<Route path='/' element={<Home />} />
-				<Route path='/full-gallery' element={<FullGallery />} />
-			</Routes>
+			<main className='main-content'>
+				<Routes>
+					<Route path='/' element={<Home />} />
+					<Route path='/full-gallery' element={<FullGallery />} />
+				</Routes>
+			</main>
 			<Footer />
 		</Router>
 	);
