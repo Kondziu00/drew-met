@@ -1,33 +1,34 @@
+import { Link } from 'react-router-dom';
 import logo from '../../images/logo.png';
 import './Nav.css';
 
 const Nav = () => {
 	return (
 		<nav className='nav'>
-			<a href='#header'>
+			<Link to='/#header'>
 				<img src={logo} alt='Logo' className='logo' />
-			</a>
+			</Link>
 
 			<ul className='nav-list'>
 				<li>
-					<a href='#services'>
-						<button className='nav-btn'>usługi</button>
-					</a>
+					<Link to='/#services' className='nav-btn'>
+						usługi
+					</Link>
 				</li>
 				<li>
-					<a href='#about'>
-						<button className='nav-btn'>o nas</button>
-					</a>
+					<Link to='/#about' className='nav-btn'>
+						o nas
+					</Link>
 				</li>
 				<li>
-					<a href='#gallery'>
-						<button className='nav-btn'>galeria</button>
-					</a>
+					<Link to='/#gallery' className='nav-btn'>
+						galeria
+					</Link>
 				</li>
 				<li>
-					<a href='#contact'>
-						<button className='nav-btn'>kontakt</button>
-					</a>
+					<Link to='/#contact' className='nav-btn'>
+						kontakt
+					</Link>
 				</li>
 			</ul>
 		</nav>
