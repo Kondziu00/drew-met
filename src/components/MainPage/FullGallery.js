@@ -11,8 +11,10 @@ import img7 from '../../images/about.jpg';
 import img8 from '../../images/about.jpg';
 import img9 from '../../images/about.jpg';
 import img10 from '../../images/about.jpg';
+import img11 from '../../images/about.jpg';
+import img12 from '../../images/about.jpg';
 
-const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
+const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12];
 
 const FullGallery = () => {
 	return (

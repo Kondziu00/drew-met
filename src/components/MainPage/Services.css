@@ -1,6 +1,7 @@
 .services {
 	padding: 0 10rem;
 	height: auto;
+	margin-bottom: 6rem;
 	/* background-color: rgba(223, 223, 223, 0.5); */
 }
 
@@ -36,7 +37,7 @@
 	align-items: center;
 	width: 35rem;
 	height: 20rem;
-	margin: 5rem auto 15rem;
+	margin: 5rem auto 5rem;
 	background-color: #d4caca4b;
 	border-radius: 1rem;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
