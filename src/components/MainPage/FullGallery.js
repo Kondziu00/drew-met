@@ -20,8 +20,6 @@ const FullGallery = () => {
 	return (
 		<section className='full-gallery'>
 			<h1 className='full-gallery__title'>
-				<span className='first-letter'>p</span>ełna{' '}
-				<span className='first-letter'>g</span>aleria!{' '}
 				<span className='first-letter'>s</span>prawdź więcej naszych realizacji!
 			</h1>
 

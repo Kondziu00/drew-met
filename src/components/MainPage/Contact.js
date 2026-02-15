@@ -11,7 +11,7 @@ const Contact = () => {
 						<p className='phone-info'>
 							Zadzwoń Marcin Guzik
 							<br />
-							123 123 123
+							604 623 217
 						</p>
 					</div>
 					<div className='address'>

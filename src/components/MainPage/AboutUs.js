@@ -9,7 +9,7 @@ const AboutUs = () => {
 					<img src={about} alt='Zdjęcie dostawy drewna' className='about' />
 				</div>
 				<div className='aboutusinfo'>
-					<h2 className='aboutustitle'>Poznaj Nas</h2>
+					<h2 className='aboutustitle'>poznaj Nas</h2>
 					<h3 className='aboutustext'>
 						<p>
 							<span>
